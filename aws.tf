@@ -4,7 +4,7 @@ resource "aws_instance" "ambati_terrec2" {
   count = 1
 
   tags = {
-    name = "ambati-terrec2"
+    Name = "ambati-terrec2"
   }
 
 }
